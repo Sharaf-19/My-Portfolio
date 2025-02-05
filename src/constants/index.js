@@ -1,31 +1,18 @@
 import {
-  //mobile,
   backend,
-  // creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  // redux,
   tailwind,
   nodejs,
-  // mongodb,
+  mongodb,
   git,
-  // figma,
-  // docker,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
-  // carrent,
-  // jobit,
-  // tripguide,
   // threejs,
   bootstrap,
-  java,
-  sql,
+  MSUPREP,
   sh,
   shcommerce,
   dotnet,
@@ -34,7 +21,7 @@ import {
   bookshelf,
   bookshelfproject,
   priceSpyder,
-  priceSpyderLogo,
+  msuprepPage,
 } from '../assets';
 
 export const navLinks = [
@@ -54,10 +41,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'JavaScript JS',
-    icon: javascript,
-  },
-  {
     title: 'Web Developer',
     icon: web,
   },
@@ -67,7 +50,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'ReactJs Developer',
+    title: 'Frontend Developer',
     icon: reactjs,
   },
   {
@@ -122,27 +105,54 @@ const technologies = [
     name: 'Python',
     icon: python,
   },
+  {
+    name: 'MongoDB',
+    icon: mongodb,
+  },
 ];
 
 const experiences = [
+  // {
+  //   title: 'Web Scraping',
+  //   company_name: 'Amazon product web scraping',
+  //   icon: priceSpyderLogo,
+  //   iconBg: '#ffffff',
+  //   date: 'August 2024',
+  //   points: [
+  //     'Built with Next.js 13: A modern platform designed to scrape Amazon product data and assist users in making informed purchasing decisions.',
+  //     'Real-Time Notifications: Implemented automated email notifications for price drops and stock changes, ensuring users stay updated.',
+  //     'Competitor Alerts: Developed functionality to notify competitors when products go out of stock, enhancing market competitiveness.',
+  //     'Automated Scraping: Utilized cron jobs to perform regular scraping, keeping product information fresh and up-to-date.',
+  //     'Interactive UI Design: Crafted an engaging user interface with a carousel header, leveraging Tailwind CSS and Headless UI for a seamless user experience.',
+  //     'Product Scraping Tool: Users can input Amazon product links into a search bar to scrape and view detailed product information, including images and pricing.',
+  //     'Product Insights Display: Enabled the display of previously scraped products, providing insights and tracking for users.',
+  //   ],
+  // },
   {
-    title: 'Web Scraping',
-    company_name: 'Amazon product web scraping',
-    icon: priceSpyderLogo,
-    iconBg: '#ffffff',
-    date: 'August 2024',
+    title: 'Full Stack',
+    company_name: 'Online Book Store website',
+    icon: MSUPREP,
+    iconBg: '#383E56',
+    date: 'Novemeber 2024',
     points: [
-      'Built with Next.js 13: A modern platform designed to scrape Amazon product data and assist users in making informed purchasing decisions.',
-      'Real-Time Notifications: Implemented automated email notifications for price drops and stock changes, ensuring users stay updated.',
-      'Competitor Alerts: Developed functionality to notify competitors when products go out of stock, enhancing market competitiveness.',
-      'Automated Scraping: Utilized cron jobs to perform regular scraping, keeping product information fresh and up-to-date.',
-      'Interactive UI Design: Crafted an engaging user interface with a carousel header, leveraging Tailwind CSS and Headless UI for a seamless user experience.',
-      'Product Scraping Tool: Users can input Amazon product links into a search bar to scrape and view detailed product information, including images and pricing.',
-      'Product Insights Display: Enabled the display of previously scraped products, providing insights and tracking for users.',
+      'The platform will assist students in finding previous years’ exam papers.',
+      'Group project feature allowing students to invite others to join and create groups for final year projects.',
+      'Simplifies the process for teachers to follow up on student progress through the platform.',
     ],
   },
   {
-    title: 'ASP.NET Developer',
+    title: 'Python',
+    company_name: '',
+    icon: python,
+    iconBg: '#383E56',
+    date: 'December 2024',
+    points: [
+      'GAME WITH AI OPPONENT USING MINIMAX ALGORITHM: Developed an interactive Connect 4 game with an AI opponent implemented using the Minimax algorithm with Alpha-Beta pruning.',
+      ' HOSPITAL PLACEMENT OPTIMIZATION USING GENETIC ALGORITHM: Python-based program to optimize hospital placements on a grid map using Genetic Algorithms.',
+    ],
+  },
+  {
+    title: 'ASP.NET',
     company_name: 'Online Book Store website',
     icon: bookshelf,
     iconBg: '#383E56',
@@ -158,7 +168,7 @@ const experiences = [
     ],
   },
   {
-    title: 'Full stack Developer',
+    title: 'Full stack',
     company_name: 'SH shopping Website',
     icon: sh,
     iconBg: '#ffffff',
@@ -170,28 +180,28 @@ const experiences = [
       'Ensuring the website is responsive and accessible on various devices, including desktops, tablets, and mobile phones.',
     ],
   },
-  {
-    title: 'JAVA',
-    company_name: 'Restuarant Management System',
-    icon: java,
-    iconBg: '#ffffff',
-    date: 'December 2022',
-    points: [
-      'Developed a comprehensive restaurant management system using Java programming language.',
-      'The system simplifies the process of taking and processing customer orders, reducing errors and enhancing order accuracy.',
-      'Restaurant owners can easily add, edit, or remove menu items, specify pricing, and update availability status.',
-    ],
-  },
-  {
-    title: 'DataBase Management System',
-    company_name: 'Human Resources Management System',
-    icon: sql,
-    iconBg: '#ffffff',
-    date: 'April 2023',
-    points: [
-      'Contributed to the development of a database management system for an HR management system project, showcasing strong teamwork, database design, and SQL skills.',
-    ],
-  },
+  // {
+  //   title: 'JAVA',
+  //   company_name: 'Restuarant Management System',
+  //   icon: java,
+  //   iconBg: '#ffffff',
+  //   date: 'December 2022',
+  //   points: [
+  //     'Developed a comprehensive restaurant management system using Java programming language.',
+  //     'The system simplifies the process of taking and processing customer orders, reducing errors and enhancing order accuracy.',
+  //     'Restaurant owners can easily add, edit, or remove menu items, specify pricing, and update availability status.',
+  //   ],
+  // },
+  // {
+  //   title: 'DataBase Management System',
+  //   company_name: 'Human Resources Management System',
+  //   icon: sql,
+  //   iconBg: '#ffffff',
+  //   date: 'April 2023',
+  //   points: [
+  //     'Contributed to the development of a database management system for an HR management system project, showcasing strong teamwork, database design, and SQL skills.',
+  //   ],
+  // },
 ];
 
 //feedbacks
@@ -224,6 +234,39 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: 'MSUPREP',
+    description:
+      'MSUPREP is a comprehensive platform designed to enhance the academic experience of students by providing easy access to previous exam papers and facilitating project collaboration. The platform serves as a central hub where students can find past exam papers, join classrooms created by teachers, and form or join project groups for assignments.',
+    tags: [
+      {
+        name: 'NEXTJS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'NodeJS',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'Express',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: msuprepPage,
+    source_code_link: 'https://github.com/msuprep?tab=repositories',
+  },
   {
     name: 'SH E-commerce',
     description:
@@ -261,6 +304,10 @@ const projects = [
       {
         name: 'C Sharp',
         color: 'green-text-gradient',
+      },
+      {
+        name: 'MS SQL Server',
+        color: 'orange-text-gradient',
       },
       {
         name: 'Razor Page',
