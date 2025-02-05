@@ -39,6 +39,7 @@ import bookshelf from './company/BookShe.png';
 import priceSpyder from './company/price-spyder.png';
 import priceSpyderLogo from './priceSpyder-logo.png';
 import MSUPREP from './MSUPREP-logo.png';
+import msuprepPage from './msuprep-page.png';
 
 import carrent from './carrent.png';
 import jobit from './jobit.png';
@@ -87,4 +88,5 @@ export {
   priceSpyder,
   priceSpyderLogo,
   MSUPREP,
+  msuprepPage
 }; 

@@ -1,27 +1,15 @@
 import {
-  //mobile,
   backend,
-  // creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  // redux,
   tailwind,
   nodejs,
-  // mongodb,
+  mongodb,
   git,
-  // figma,
-  // docker,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
-  // carrent,
-  // jobit,
-  // tripguide,
   // threejs,
   bootstrap,
   MSUPREP,
@@ -33,6 +21,7 @@ import {
   bookshelf,
   bookshelfproject,
   priceSpyder,
+  msuprepPage,
 } from '../assets';
 
 export const navLinks = [
@@ -52,10 +41,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'JavaScript JS',
-    icon: javascript,
-  },
-  {
     title: 'Web Developer',
     icon: web,
   },
@@ -65,7 +50,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'ReactJs Developer',
+    title: 'Frontend Developer',
     icon: reactjs,
   },
   {
@@ -120,6 +105,10 @@ const technologies = [
     name: 'Python',
     icon: python,
   },
+  {
+    name: 'MongoDB',
+    icon: mongodb,
+  },
 ];
 
 const experiences = [
@@ -149,6 +138,17 @@ const experiences = [
       'The platform will assist students in finding previous years’ exam papers.',
       'Group project feature allowing students to invite others to join and create groups for final year projects.',
       'Simplifies the process for teachers to follow up on student progress through the platform.',
+    ],
+  },
+  {
+    title: 'Python',
+    company_name: '',
+    icon: python,
+    iconBg: '#383E56',
+    date: 'December 2024',
+    points: [
+      'GAME WITH AI OPPONENT USING MINIMAX ALGORITHM: Developed an interactive Connect 4 game with an AI opponent implemented using the Minimax algorithm with Alpha-Beta pruning.',
+      ' HOSPITAL PLACEMENT OPTIMIZATION USING GENETIC ALGORITHM: Python-based program to optimize hospital placements on a grid map using Genetic Algorithms.',
     ],
   },
   {
@@ -235,6 +235,39 @@ const testimonials = [
 
 const projects = [
   {
+    name: 'MSUPREP',
+    description:
+      'MSUPREP is a comprehensive platform designed to enhance the academic experience of students by providing easy access to previous exam papers and facilitating project collaboration. The platform serves as a central hub where students can find past exam papers, join classrooms created by teachers, and form or join project groups for assignments.',
+    tags: [
+      {
+        name: 'NEXTJS',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'TypeScript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'NodeJS',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'Express',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'Tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: msuprepPage,
+    source_code_link: 'https://github.com/msuprep?tab=repositories',
+  },
+  {
     name: 'SH E-commerce',
     description:
       'SH is an online shopping destination for everything, all in one place! it is a platform to discover a world of convenience and choice as you explore vast selection of products, from the latest fashion trends to cutting-edge electronics, home essentials, and more.',
@@ -271,6 +304,10 @@ const projects = [
       {
         name: 'C Sharp',
         color: 'green-text-gradient',
+      },
+      {
+        name: 'MS SQL Server',
+        color: 'orange-text-gradient',
       },
       {
         name: 'Razor Page',
